@@ -227,8 +227,8 @@ local Tab3 = Window:Tab("Player",false)
 Tab3:Label("Player Scripts")
  
 game.StarterGui:SetCore("SendNotification", {
-    Title = "TokwaWare";
-    Text = "Welcome";
+    Title = "Nazaware";
+    Text = "Thanks For buying - Made by TriX#8555";
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
     callbakc = bindableFunction;
