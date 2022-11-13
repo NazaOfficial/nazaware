@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
  
  
-local Window = Library:Create("Nazaware","Paid")
+local Window = Library:Create("Nazaware","V-1.0")
 local Tab1 = Window:Tab("Aimlocks",true)
  
 Tab1:Label("Aiming - I")
@@ -232,7 +232,7 @@ game.StarterGui:SetCore("SendNotification", {
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
     callbakc = bindableFunction;
-    Button1 = "Okay";
+    
 })
  
 Tab3:Button("Realistic Speed Glitch (V)",function(bool)
@@ -313,13 +313,13 @@ Tab3:Button("Tryhard Anims",function(bool)
     end
 end)
  
-Tab3:Button("Headless Client Sided",function(bool)
+Tab3:Button("Headless",function(bool)
     getgenv().game.Players.LocalPlayer.Character.Head.Transparency = 1
     getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
     getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
 end)
  
-Tab3:Button("Korblox Client Sided",function(bool)
+Tab3:Button("Korblox",function(bool)
 	local ply = game.Players.LocalPlayer
 	local chr = ply.Character
 	chr.RightLowerLeg.MeshId = "902942093"
@@ -330,7 +330,7 @@ Tab3:Button("Korblox Client Sided",function(bool)
 	chr.RightFoot.Transparency = "1"
 end)
  
-Tab3:Button("Trash Talk (J)",function(bool)
+Tab3:Button("Offend Users (J)",function(bool)
     local plr = game.Players.LocalPlayer
 repeat wait() until plr.Character
 local char = plr.Character
