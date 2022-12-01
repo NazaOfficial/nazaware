@@ -1,15 +1,15 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
  
  
-local Window = Library:Create("Nazaware","V-1.0")
-local Tab1 = Window:Tab("Aimlocks",true)
+local Window = Library:Create("Nazaware","V-1.1")
+local Tab1 = Window:Tab("Aiming - I",true)
  
-Tab1:Label("Aiming - I")
+Tab1:Label("AimAssist")
  
 Tab1:Button("Aimlock",function(bool)
     getgenv().AimPart = "HumanoidRootPart"
 	getgenv().AimlockKey = "q"
-	getgenv().AimRadius = 30
+	getgenv().AimRadius = 15
 	getgenv().ThirdPerson = true
 	getgenv().FirstPerson = true
 	getgenv().TeamCheck = false
@@ -228,7 +228,7 @@ Tab3:Label("Player Scripts")
  
 game.StarterGui:SetCore("SendNotification", {
     Title = "Nazaware";
-    Text = "Thanks For buying - Made by TriX#8555";
+    Text = "Thanks For buying - Updated silent aim Prediction";
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
     callbakc = bindableFunction;
